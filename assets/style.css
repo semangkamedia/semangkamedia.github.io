@@ -13,3 +13,24 @@
   background: rgba(255, 255, 255, 0.92);
   backdrop-filter: blur(12px);
 }
+
+.area-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+
+.area-swiper .swiper-pagination-bullet-active {
+  background-color: #1e5a44;
+}
+
+.scroll-reveal {
+  opacity: 0;
+  --animate-duration: 700ms;
+  animation-delay: var(--animate-delay, 0ms);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-reveal {
+    opacity: 1;
+    animation: none !important;
+  }
+}

@@ -17,6 +17,14 @@
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -775,10 +783,11 @@
           </p>
         </div>
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <!-- Area 1 -->
-          <div
-            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+        <div class="swiper area-swiper">
+          <div class="swiper-wrapper">
+            <!-- Area 1 -->
+            <div
+            class="swiper-slide h-auto bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
           >
             <div>
               <div class="flex items-center justify-between mb-4">
@@ -845,7 +854,7 @@
 
           <!-- Area 2 -->
           <div
-            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+            class="swiper-slide h-auto bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
           >
             <div>
               <div class="flex items-center justify-between mb-4">
@@ -912,7 +921,7 @@
 
           <!-- Area 3 -->
           <div
-            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+            class="swiper-slide h-auto bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
           >
             <div>
               <div class="flex items-center justify-between mb-4">
@@ -980,7 +989,7 @@
 
           <!-- Area 4 -->
           <div
-            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+            class="swiper-slide h-auto bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
           >
             <div>
               <div class="flex items-center justify-between mb-4">
@@ -1047,7 +1056,7 @@
 
           <!-- Area 5 -->
           <div
-            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+            class="swiper-slide h-auto bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
           >
             <div>
               <div class="flex items-center justify-between mb-4">
@@ -1114,7 +1123,7 @@
 
           <!-- Area 6 -->
           <div
-            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+            class="swiper-slide h-auto bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
           >
             <div>
               <div class="flex items-center justify-between mb-4">
@@ -1178,54 +1187,57 @@
               >
             </div>
           </div>
-        </div>
 
-        <!-- Area 7 Banner (Cyber Defense) -->
-        <div
-          class="mt-8 bg-gradient-to-r from-brand-dark to-brand-primary rounded-3xl p-8 sm:p-10 text-white shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8"
-        >
-          <div class="space-y-3 max-w-2xl text-center lg:text-left">
+            <!-- Area 7: Cyber Defense -->
             <div
-              class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold"
+              class="swiper-slide h-auto bg-gradient-to-br from-brand-dark to-brand-primary rounded-3xl p-7 text-white shadow-xl flex flex-col justify-between gap-6"
             >
-              <i data-lucide="shield-check" class="w-4 h-4"></i>
-              <span>Area 07 • Cyber Defense & Security</span>
-            </div>
-            <h3 class="text-2xl sm:text-3xl font-extrabold">
-              Lindungi Aset Digital & Data Pelanggan Anda
-            </h3>
-            <p class="text-xs sm:text-sm text-emerald-100 leading-relaxed">
-              Keamanan bukan cuma urusan korporasi raksasa. Website usaha, akun
-              admin, dan database transaksi Anda adalah aset berharga yang wajib
-              dilindungi dari risiko kebocoran, hacking, dan kehilangan file.
-            </p>
-            <div
-              class="flex flex-wrap gap-2 pt-2 justify-center lg:justify-start text-xs font-medium text-white/90"
-            >
-              <span class="px-2.5 py-1 bg-white/10 rounded-lg"
-                >Security Assessment</span
-              >
-              <span class="px-2.5 py-1 bg-white/10 rounded-lg"
-                >Web & Cloud Protection</span
-              >
-              <span class="px-2.5 py-1 bg-white/10 rounded-lg"
-                >Backup Otomatis & Recovery</span
-              >
-              <span class="px-2.5 py-1 bg-white/10 rounded-lg"
-                >Hak Akses Login Staf</span
-              >
+              <div class="space-y-3">
+                <div
+                  class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold"
+                >
+                  <i data-lucide="shield-check" class="w-4 h-4"></i>
+                  <span>Area 07 • Cyber Defense & Security</span>
+                </div>
+                <h3 class="text-xl font-bold">
+                  Lindungi Aset Digital & Data Pelanggan Anda
+                </h3>
+                <p class="text-xs sm:text-sm text-emerald-100 leading-relaxed">
+                  Keamanan bukan cuma urusan korporasi raksasa. Website usaha,
+                  akun admin, dan database transaksi Anda adalah aset berharga
+                  yang wajib dilindungi dari risiko kebocoran, hacking, dan
+                  kehilangan file.
+                </p>
+                <div
+                  class="flex flex-wrap gap-2 pt-2 text-xs font-medium text-white/90"
+                >
+                  <span class="px-2.5 py-1 bg-white/10 rounded-lg"
+                    >Security Assessment</span
+                  >
+                  <span class="px-2.5 py-1 bg-white/10 rounded-lg"
+                    >Web & Cloud Protection</span
+                  >
+                  <span class="px-2.5 py-1 bg-white/10 rounded-lg"
+                    >Backup Otomatis & Recovery</span
+                  >
+                  <span class="px-2.5 py-1 bg-white/10 rounded-lg"
+                    >Hak Akses Login Staf</span
+                  >
+                </div>
+              </div>
+              <div>
+                <a
+                  href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20ingin%20cek%20keamanan%20sistem%20dan%20website%20usaha%20saya"
+                  target="_blank"
+                  class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-brand-accent hover:bg-red-600 text-white font-bold text-sm shadow-lg transition"
+                >
+                  <i data-lucide="shield-alert" class="w-4 h-4"></i>
+                  <span>Cek Keamanan Web Gratis</span>
+                </a>
+              </div>
             </div>
           </div>
-          <div class="shrink-0">
-            <a
-              href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20ingin%20cek%20keamanan%20sistem%20dan%20website%20usaha%20saya"
-              target="_blank"
-              class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-brand-accent hover:bg-red-600 text-white font-bold text-sm shadow-lg transition"
-            >
-              <i data-lucide="shield-alert" class="w-4 h-4"></i>
-              <span>Cek Keamanan Web Gratis</span>
-            </a>
-          </div>
+          <div class="swiper-pagination !static mt-8"></div>
         </div>
       </div>
     </section>
@@ -1767,6 +1779,7 @@
     </footer>
 
     <!-- ================= JAVASCRIPT LOGIC ================= -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="assets/script.js"></script>
   </body>
 </html>
