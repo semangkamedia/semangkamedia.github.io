@@ -9,7 +9,7 @@ if (areaSwiperElement && typeof Swiper !== "undefined") {
 
   new Swiper(areaSwiperElement, {
     loop: true,
-    speed: 700,
+    speed: prefersReducedMotion ? 0 : 700,
     spaceBetween: 24,
     slidesPerView: 1,
     autoplay: prefersReducedMotion
