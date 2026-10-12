@@ -1,0 +1,1772 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Semangkamedia • Digital Transformation for Business</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+    <meta
+      name="description"
+      content="Partner transformasi digital untuk bisnis dan UMKM di Tasikmalaya dan Indonesia. Pahami masalah, bangun solusi nyata, dan tumbuh bersama."
+    />
+
+    <!-- Google Fonts: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/tailwind.config.js"></script>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+  <body
+    class="bg-brand-surface text-brand-dark antialiased font-sans selection:bg-brand-primary selection:text-white"
+  >
+    <!-- ================= NAVBAR ================= -->
+    <header
+      class="fixed top-0 left-0 right-0 z-50 glass-nav border-b border-brand-border"
+    >
+      <div
+        class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between"
+      >
+        <!-- LOGO -->
+        <a href="#beranda" class="flex items-center gap-3 group">
+          <img src="assets/logo.png" class="w-14" alt="" srcset="" />
+          <div class="leading-tight">
+            <div
+              class="text-lg font-extrabold tracking-tight text-brand-dark uppercase"
+            >
+              Semangka<span class="text-brand-primary">media</span>
+            </div>
+            <p
+              class="text-[11px] font-semibold text-brand-muted tracking-wider uppercase"
+            >
+              Digital Transformation
+            </p>
+          </div>
+        </a>
+
+        <!-- DESKTOP MENU -->
+        <nav
+          class="hidden md:flex items-center gap-8 text-sm font-semibold text-brand-muted"
+        >
+          <a href="#tentang" class="hover:text-brand-primary transition"
+            >Tentang Kami</a
+          >
+          <a href="#cara-kerja" class="hover:text-brand-primary transition"
+            >Alur Kolaborasi</a
+          >
+          <a href="#layanan" class="hover:text-brand-primary transition"
+            >Area Solusi</a
+          >
+          <a href="#skema" class="hover:text-brand-primary transition"
+            >Investasi</a
+          >
+          <a href="#kontak" class="hover:text-brand-primary transition"
+            >Kontak</a
+          >
+        </nav>
+
+        <!-- CTA BUTTON -->
+        <div class="hidden lg:flex items-center gap-4">
+          <a
+            href="https://drive.google.com/file/d/15PdF9rfuscGV5Bo4TAi10yFjeInH_F6O/view?usp=drive_link"
+            target="_blank"
+            class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-brand-primary text-white text-sm font-bold shadow-md shadow-brand-primary/25 hover:bg-brand-secondary transition transform hover:-translate-y-0.5"
+          >
+            <i
+              data-lucide="download-cloud"
+              class="w-4 h-4 text-brand-lightAccent"
+            ></i>
+            <span>Download Brief</span>
+          </a>
+        </div>
+
+        <!-- MOBILE MENU BUTTON -->
+        <button
+          id="mobileMenuBtn"
+          class="md:hidden p-2 text-brand-dark hover:text-brand-primary focus:outline-none"
+          aria-label="Buka Menu"
+        >
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+
+      <!-- MOBILE DROPDOWN -->
+      <div
+        id="mobileMenu"
+        class="hidden md:hidden bg-white border-b border-brand-border px-6 py-5 space-y-4 text-sm font-semibold text-brand-dark"
+      >
+        <a href="#tentang" class="block py-1 hover:text-brand-primary"
+          >Tentang Kami</a
+        >
+        <a href="#cara-kerja" class="block py-1 hover:text-brand-primary"
+          >Alur Kolaborasi</a
+        >
+        <a href="#layanan" class="block py-1 hover:text-brand-primary"
+          >Area Solusi</a
+        >
+        <a href="#skema" class="block py-1 hover:text-brand-primary"
+          >Investasi</a
+        >
+        <a href="#kontak" class="block py-1 hover:text-brand-primary">Kontak</a>
+        <div class="pt-3 border-t border-gray-100">
+          <a
+            href="https://drive.google.com/file/d/15PdF9rfuscGV5Bo4TAi10yFjeInH_F6O/view?usp=drive_link"
+            target="_blank"
+            class="flex items-center justify-center gap-2 w-full py-3 rounded-full bg-brand-primary text-white text-sm font-bold shadow-md"
+          >
+            <i data-lucide="download-cloud" class="w-4 h-4"></i>
+            <span>Download Brief</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= HERO SECTION ================= -->
+    <section
+      id="beranda"
+      class="relative pt-32 pb-20 md:pt-40 md:pb-32 overflow-hidden"
+    >
+      <!-- Decorative Radial Pitch Deck Motif -->
+      <div
+        class="absolute -top-24 -right-24 w-96 h-96 md:w-[600px] md:h-[600px] rounded-full hero-ring pointer-events-none -z-10"
+      ></div>
+      <div
+        class="absolute top-1/2 -left-36 w-80 h-80 rounded-full bg-emerald-100/40 blur-3xl pointer-events-none -z-10"
+      ></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+          <!-- Left Hero Content -->
+          <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+            <!-- Badge -->
+            <div
+              class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-brand-mint border border-emerald-200 text-brand-primary text-xs sm:text-sm font-bold tracking-wide"
+            >
+              <span
+                class="w-2 h-2 rounded-full bg-brand-accent animate-pulse"
+              ></span>
+              Partner Transformasi Digital Bisnis
+            </div>
+
+            <!-- Main Title -->
+            <h1
+              class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-brand-dark leading-[1.15]"
+            >
+              Bikin Bisnis Lebih
+              <span
+                class="text-brand-primary underline decoration-brand-accent/40 decoration-wavy"
+                >Efisien, Modern,</span
+              >
+              & Tumbuh Berkelanjutan.
+            </h1>
+
+            <!-- Description -->
+            <p
+              class="text-base sm:text-lg text-brand-muted max-w-2xl mx-auto lg:mx-0 leading-relaxed font-normal"
+            >
+              Transformasi digital bukan soal beli aplikasi rumit atau mahal.
+              Kami bantu merapikan operasional, mengotomasi pekerjaan berulang,
+              dan membangun sistem digital yang langsung terasa dampaknya bagi
+              omset Anda.
+            </p>
+
+            <!-- Buttons -->
+            <div
+              class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2"
+            >
+              <a
+                href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20ingin%20jadwalkan%20obrolan%20awal%20%2F%20assessment%20gratis%20untuk%20usaha%20saya"
+                target="_blank"
+                class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-full bg-brand-primary text-white font-bold text-base shadow-lg shadow-brand-primary/30 hover:bg-brand-secondary transition transform hover:-translate-y-0.5"
+              >
+                <span>Konsultasi & Assessment Gratis</span>
+                <i data-lucide="arrow-right" class="w-4 h-4"></i>
+              </a>
+              <a
+                href="#layanan"
+                class="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-4 rounded-full bg-white border border-brand-border text-brand-dark font-bold text-base hover:bg-emerald-50/50 hover:border-emerald-300 transition"
+              >
+                <span>Lihat 7 Area Solusi</span>
+                <i data-lucide="layers" class="w-4 h-4 text-brand-primary"></i>
+              </a>
+            </div>
+
+            <!-- Trust Pillars -->
+            <div
+              class="pt-6 grid grid-cols-3 gap-3 border-t border-brand-border/70 max-w-xl mx-auto lg:mx-0"
+            >
+              <div class="text-left">
+                <p class="text-xs text-brand-muted font-medium">
+                  Investasi Fleksibel
+                </p>
+                <p class="text-sm font-bold text-brand-dark mt-0.5">
+                  Mulai dari Skala Kecil
+                </p>
+              </div>
+              <div class="text-left border-l border-brand-border/80 pl-3">
+                <p class="text-xs text-brand-muted font-medium">
+                  Fokus Masalah
+                </p>
+                <p class="text-sm font-bold text-brand-dark mt-0.5">
+                  Understand First
+                </p>
+              </div>
+              <div class="text-left border-l border-brand-border/80 pl-3">
+                <p class="text-xs text-brand-muted font-medium">
+                  Berdampak Nyata
+                </p>
+                <p class="text-sm font-bold text-brand-dark mt-0.5">
+                  Bukan Sekadar Tren
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Hero Visual Card (Pitch Deck Style Showcase) -->
+          <div class="lg:col-span-5 relative">
+            <div
+              class="relative mx-auto max-w-md bg-white rounded-3xl p-6 sm:p-8 shadow-2xl border border-brand-border"
+            >
+              <!-- Top Tag -->
+              <div
+                class="flex items-center justify-between pb-5 border-b border-gray-100"
+              >
+                <div class="flex items-center gap-2">
+                  <span class="w-3 h-3 rounded-full bg-brand-accent"></span>
+                  <span
+                    class="text-xs font-bold uppercase tracking-wider text-brand-muted"
+                    >Framework Kerja Kami</span
+                  >
+                </div>
+                <span
+                  class="text-xs px-2.5 py-1 bg-brand-mint text-brand-primary font-bold rounded-md"
+                  >2026</span
+                >
+              </div>
+
+              <!-- 4 Step Diagram -->
+              <div class="space-y-4 my-6">
+                <div
+                  class="p-4 rounded-2xl bg-brand-surface border border-brand-border flex items-start gap-4"
+                >
+                  <div
+                    class="w-9 h-9 rounded-xl bg-brand-primary text-white font-bold flex items-center justify-center shrink-0 text-sm"
+                  >
+                    1
+                  </div>
+                  <div>
+                    <h2 class="font-bold text-brand-dark text-sm">
+                      Understand (Pahami)
+                    </h2>
+                    <p class="text-xs text-brand-muted mt-0.5 leading-relaxed">
+                      Melihat langsung aktivitas usaha, alur tim, dan kendala
+                      nyata.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="p-4 rounded-2xl bg-brand-surface border border-brand-border flex items-start gap-4"
+                >
+                  <div
+                    class="w-9 h-9 rounded-xl bg-brand-secondary text-white font-bold flex items-center justify-center shrink-0 text-sm"
+                  >
+                    2
+                  </div>
+                  <div>
+                    <h2 class="font-bold text-brand-dark text-sm">
+                      Solve (Cari Solusi)
+                    </h2>
+                    <p class="text-xs text-brand-muted mt-0.5 leading-relaxed">
+                      Menemukan perbaikan praktis dengan prioritas tertinggi.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="p-4 rounded-2xl bg-brand-surface border border-brand-border flex items-start gap-4"
+                >
+                  <div
+                    class="w-9 h-9 rounded-xl bg-emerald-600 text-white font-bold flex items-center justify-center shrink-0 text-sm"
+                  >
+                    3
+                  </div>
+                  <div>
+                    <h2 class="font-bold text-brand-dark text-sm">
+                      Build (Bangun Sederhana)
+                    </h2>
+                    <p class="text-xs text-brand-muted mt-0.5 leading-relaxed">
+                      Membuat sistem/otomasi bertahap dari prototipe.
+                    </p>
+                  </div>
+                </div>
+
+                <div
+                  class="p-4 rounded-2xl bg-brand-lightAccent border border-red-200 flex items-start gap-4"
+                >
+                  <div
+                    class="w-9 h-9 rounded-xl bg-brand-accent text-white font-bold flex items-center justify-center shrink-0 text-sm"
+                  >
+                    4
+                  </div>
+                  <div>
+                    <h2 class="font-bold text-brand-accent text-sm">
+                      Grow (Tumbuh Bersama)
+                    </h2>
+                    <p class="text-xs text-brand-muted mt-0.5 leading-relaxed">
+                      Evaluasi data nyata dan tingkatkan kapasitas bisnis.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Quote banner -->
+              <div
+                class="p-4 rounded-2xl bg-gradient-to-r from-brand-primary to-emerald-800 text-white text-xs leading-relaxed"
+              >
+                <p class="font-medium italic">
+                  "Teknologi yang baik bukanlah yang paling rumit, tetapi yang
+                  memberi dampak nyata bagi bisnis dan penggunanya."
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SECTION REALITAS & MASALAH ================= -->
+    <section class="py-20 bg-white border-y border-brand-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center space-y-3 mb-14">
+          <span
+            class="text-xs uppercase font-extrabold tracking-widest text-brand-accent"
+            >Tantangan Lapangan</span
+          >
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-brand-dark">
+            Apakah Bisnis Anda Mengalami Situasi Ini?
+          </h2>
+          <p class="text-brand-muted text-sm sm:text-base">
+            Banyak pebisnis merasa sibuk bekerja seharian, tapi pertumbuhan
+            bisnis terasa stagnan karena terganjal proses manual.
+          </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Masalah 1 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-6 border border-brand-border hover:border-brand-primary/40 transition"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-red-100 text-brand-accent flex items-center justify-center mb-5"
+            >
+              <i data-lucide="file-spreadsheet" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-bold text-base text-brand-dark mb-2">
+              Pencatatan Masih Tercecer
+            </h3>
+            <p class="text-xs text-brand-muted leading-relaxed">
+              Catatan penjualan, kasir, dan stok ada di buku tulis atau puluhan
+              file Excel berbeda yang rawan terselip dan selisih.
+            </p>
+          </div>
+
+          <!-- Masalah 2 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-6 border border-brand-border hover:border-brand-primary/40 transition"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-amber-100 text-amber-700 flex items-center justify-center mb-5"
+            >
+              <i data-lucide="message-square-text" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-bold text-base text-brand-dark mb-2">
+              Lelah Balas Chat Rutin
+            </h3>
+            <p class="text-xs text-brand-muted leading-relaxed">
+              Waktu admin dan owner habis untuk membalas pertanyaan yang persis
+              sama di WhatsApp, sehingga peluang penjualan penting sering telat
+              direspon.
+            </p>
+          </div>
+
+          <!-- Masalah 3 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-6 border border-brand-border hover:border-brand-primary/40 transition"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-emerald-100 text-brand-primary flex items-center justify-center mb-5"
+            >
+              <i data-lucide="pie-chart" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-bold text-base text-brand-dark mb-2">
+              Sulit Ambil Keputusan
+            </h3>
+            <p class="text-xs text-brand-muted leading-relaxed">
+              Tidak punya satu layar ringkas untuk tahu produk mana yang paling
+              laku, pelanggan mana yang setia, dan apakah operasional bulan ini
+              benar-benar untung.
+            </p>
+          </div>
+
+          <!-- Masalah 4 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-6 border border-brand-border hover:border-brand-primary/40 transition"
+          >
+            <div
+              class="w-12 h-12 rounded-xl bg-blue-100 text-blue-700 flex items-center justify-center mb-5"
+            >
+              <i data-lucide="globe-2" class="w-6 h-6"></i>
+            </div>
+            <h3 class="font-bold text-base text-brand-dark mb-2">
+              Persaingan Makin Terbuka
+            </h3>
+            <p class="text-xs text-brand-muted leading-relaxed">
+              Kompetitor baru bermunculan dengan layanan lebih kilat dan serba
+              digital. Pelanggan mulai menuntut kepraktisan instan.
+            </p>
+          </div>
+        </div>
+
+        <!-- Callout quote -->
+        <div
+          class="mt-12 text-center bg-brand-mint rounded-2xl p-6 border border-emerald-200"
+        >
+          <p class="text-sm sm:text-base font-semibold text-brand-primary">
+            Solusinya bukan langsung membeli aplikasi termahal. Solusinya adalah
+            merapikan alur kerja dengan teknologi yang pas sesuai skala bisnis
+            saat ini.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= TENTANG SEMANGKAMEDIA ================= -->
+    <section id="tentang" class="py-20 bg-brand-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid lg:grid-cols-12 gap-12 items-center">
+          <div class="lg:col-span-6 space-y-6">
+            <span
+              class="text-xs uppercase font-extrabold tracking-widest text-brand-accent"
+              >Profil Perusahaan</span
+            >
+            <h2
+              class="text-3xl sm:text-4xl font-extrabold text-brand-dark tracking-tight"
+            >
+              Kami Tidak Memulai dari Menjual Software, Tapi dari Mendengarkan
+              Anda.
+            </h2>
+            <p class="text-brand-muted text-sm sm:text-base leading-relaxed">
+              <strong>Semangkamedia</strong> adalah partner kolaborasi bagi
+              bisnis untuk menemukan dan mengembangkan peluang melalui strategi,
+              digitalisasi, dan teknologi terukur.
+            </p>
+            <p class="text-brand-muted text-sm sm:text-base leading-relaxed">
+              Kami berbasis di Tasikmalaya dan berkomitmen mendampingi para
+              pelaku usaha melangkah ke era digital secara aman, realistis, dan
+              berkelanjutan tanpa beban biaya berlebih di awal.
+            </p>
+
+            <div class="space-y-3 pt-2">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-6 h-6 rounded-full bg-emerald-100 text-brand-primary flex items-center justify-center shrink-0"
+                >
+                  <i data-lucide="check" class="w-4 h-4"></i>
+                </div>
+                <span class="text-sm font-semibold text-brand-dark"
+                  >Fokus pada penyelesaian kendala operasional yang paling
+                  mendesak.</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-6 h-6 rounded-full bg-emerald-100 text-brand-primary flex items-center justify-center shrink-0"
+                >
+                  <i data-lucide="check" class="w-4 h-4"></i>
+                </div>
+                <span class="text-sm font-semibold text-brand-dark"
+                  >Sistem dirancang modular: bisa dimulai dari modul kecil lalu
+                  berkembang.</span
+                >
+              </div>
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-6 h-6 rounded-full bg-emerald-100 text-brand-primary flex items-center justify-center shrink-0"
+                >
+                  <i data-lucide="check" class="w-4 h-4"></i>
+                </div>
+                <span class="text-sm font-semibold text-brand-dark"
+                  >Pendampingan dan edukasi langsung bagi tim kerja Anda.</span
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6">
+            <div
+              class="bg-gradient-to-br from-brand-primary to-brand-dark text-white rounded-3xl p-8 sm:p-10 shadow-xl relative overflow-hidden"
+            >
+              <div
+                class="absolute -right-10 -bottom-10 w-48 h-48 rounded-full border-8 border-white/10 pointer-events-none"
+              ></div>
+
+              <h3 class="text-xl font-bold mb-4 flex items-center gap-2">
+                <i data-lucide="compass" class="w-5 h-5 text-emerald-300"></i>
+                Prinsip Kerja Semangkamedia
+              </h3>
+
+              <div class="grid grid-cols-2 gap-4 text-xs sm:text-sm mt-6">
+                <div
+                  class="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15"
+                >
+                  <span
+                    class="text-emerald-300 font-extrabold block text-base mb-1"
+                    >01. Understand</span
+                  >
+                  Memahami aktivitas riil, pasar, dan kebiasaan pembeli Anda.
+                </div>
+                <div
+                  class="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15"
+                >
+                  <span
+                    class="text-emerald-300 font-extrabold block text-base mb-1"
+                    >02. Solve</span
+                  >
+                  Menentukan solusi paling hemat waktu dan biaya.
+                </div>
+                <div
+                  class="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15"
+                >
+                  <span
+                    class="text-emerald-300 font-extrabold block text-base mb-1"
+                    >03. Build</span
+                  >
+                  Membangun platform atau automasi yang mudah.
+                </div>
+                <div
+                  class="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/15"
+                >
+                  <span
+                    class="text-brand-accent font-extrabold block text-base mb-1"
+                    >04. Grow</span
+                  >
+                  Menganalisis hasil dan bersiap melipatgandakan dampak.
+                </div>
+              </div>
+
+              <div
+                class="mt-8 pt-6 border-t border-white/20 flex items-center justify-between"
+              >
+                <div>
+                  <p class="text-xs text-emerald-200">
+                    Kemitraan Jangka Panjang
+                  </p>
+                  <p class="text-sm font-bold">Tumbuh Bersama Partner</p>
+                </div>
+                <span class="text-2xl font-black tracking-tight text-white/30"
+                  >2026</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CARA KERJA (OUR JOURNEY) ================= -->
+    <section
+      id="cara-kerja"
+      class="py-20 bg-white border-t border-brand-border"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center space-y-3 mb-16">
+          <span
+            class="text-xs uppercase font-extrabold tracking-widest text-brand-primary"
+            >Our Journey</span
+          >
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark">
+            6 Tahap Kolaborasi Bersama Partner
+          </h2>
+          <p class="text-brand-muted text-sm sm:text-base">
+            Kami tidak meninggalkan Anda sendirian dengan software baru. Setiap
+            tahapan dijalankan secara bertahap dan terukur.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
+          <!-- Step 1 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-5 border border-brand-border relative flex flex-col justify-between hover:shadow-md transition"
+          >
+            <div>
+              <span
+                class="text-xs font-black px-2 py-1 bg-brand-primary/10 text-brand-primary rounded-md"
+                >STEP 01</span
+              >
+              <h3 class="font-bold text-base text-brand-dark mt-3 mb-1">
+                Observe
+              </h3>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Melihat langsung aktivitas bisnis, cara staf bekerja, dan
+                interaksi harian pelanggan.
+              </p>
+            </div>
+            <div
+              class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] font-semibold text-brand-primary"
+            >
+              <i data-lucide="eye" class="w-3.5 h-3.5"></i>
+              <span>Observasi Lapangan</span>
+            </div>
+          </div>
+
+          <!-- Step 2 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-5 border border-brand-border relative flex flex-col justify-between hover:shadow-md transition"
+          >
+            <div>
+              <span
+                class="text-xs font-black px-2 py-1 bg-brand-primary/10 text-brand-primary rounded-md"
+                >STEP 02</span
+              >
+              <h3 class="font-bold text-base text-brand-dark mt-3 mb-1">
+                Diagnose
+              </h3>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Menemukan sumber kebocoran waktu, masalah teknis, dan potensi
+                omset baru.
+              </p>
+            </div>
+            <div
+              class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] font-semibold text-brand-primary"
+            >
+              <i data-lucide="stethoscope" class="w-3.5 h-3.5"></i>
+              <span>Pemetaan Masalah</span>
+            </div>
+          </div>
+
+          <!-- Step 3 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-5 border border-brand-border relative flex flex-col justify-between hover:shadow-md transition"
+          >
+            <div>
+              <span
+                class="text-xs font-black px-2 py-1 bg-brand-primary/10 text-brand-primary rounded-md"
+                >STEP 03</span
+              >
+              <h3 class="font-bold text-base text-brand-dark mt-3 mb-1">
+                Design
+              </h3>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Merancang strategi digital yang pas dengan budget dan skala
+                prioritas bisnis.
+              </p>
+            </div>
+            <div
+              class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] font-semibold text-brand-primary"
+            >
+              <i data-lucide="pen-tool" class="w-3.5 h-3.5"></i>
+              <span>Rencana Solusi</span>
+            </div>
+          </div>
+
+          <!-- Step 4 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-5 border border-brand-border relative flex flex-col justify-between hover:shadow-md transition"
+          >
+            <div>
+              <span
+                class="text-xs font-black px-2 py-1 bg-brand-primary/10 text-brand-primary rounded-md"
+                >STEP 04</span
+              >
+              <h3 class="font-bold text-base text-brand-dark mt-3 mb-1">
+                Build
+              </h3>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Membangun website, integrasi data, atau bot automasi sesuai
+                kebutuhan.
+              </p>
+            </div>
+            <div
+              class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] font-semibold text-brand-primary"
+            >
+              <i data-lucide="code" class="w-3.5 h-3.5"></i>
+              <span>Pengembangan Sistem</span>
+            </div>
+          </div>
+
+          <!-- Step 5 -->
+          <div
+            class="bg-brand-surface rounded-2xl p-5 border border-brand-border relative flex flex-col justify-between hover:shadow-md transition"
+          >
+            <div>
+              <span
+                class="text-xs font-black px-2 py-1 bg-brand-primary/10 text-brand-primary rounded-md"
+                >STEP 05</span
+              >
+              <h3 class="font-bold text-base text-brand-dark mt-3 mb-1">
+                Implement
+              </h3>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Memasang sistem secara bertahap dan melatih tim agar mahir
+                menggunakannya.
+              </p>
+            </div>
+            <div
+              class="mt-4 pt-3 border-t border-gray-100 flex items-center gap-1.5 text-[11px] font-semibold text-brand-primary"
+            >
+              <i data-lucide="rocket" class="w-3.5 h-3.5"></i>
+              <span>Penerapan & Training</span>
+            </div>
+          </div>
+
+          <!-- Step 6 -->
+          <div
+            class="bg-brand-lightAccent rounded-2xl p-5 border border-red-200 relative flex flex-col justify-between hover:shadow-md transition"
+          >
+            <div>
+              <span
+                class="text-xs font-black px-2 py-1 bg-brand-accent/20 text-brand-accent rounded-md"
+                >STEP 06</span
+              >
+              <h3 class="font-bold text-base text-brand-accent mt-3 mb-1">
+                Grow
+              </h3>
+              <p class="text-xs text-brand-muted leading-relaxed">
+                Mengukur hasil performa, efisiensi waktu, dan menyiapkan langkah
+                ekspansi.
+              </p>
+            </div>
+            <div
+              class="mt-4 pt-3 border-t border-red-100 flex items-center gap-1.5 text-[11px] font-bold text-brand-accent"
+            >
+              <i data-lucide="trending-up" class="w-3.5 h-3.5"></i>
+              <span>Evaluasi & Tumbuh</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7 AREA KERJASAMA (PARTNERSHIP AREAS) ================= -->
+    <section id="layanan" class="py-24 bg-brand-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center space-y-3 mb-16">
+          <span
+            class="text-xs uppercase font-extrabold tracking-widest text-brand-accent"
+            >7 Ruang Lingkup Kolaborasi</span
+          >
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark">
+            Pilih Solusi yang Paling Dibutuhkan
+          </h2>
+          <p class="text-brand-muted text-sm sm:text-base">
+            Setiap bisnis punya titik mulai yang berbeda. Anda bebas memilih
+            area mana yang ingin dibereskan terlebih dahulu.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Area 1 -->
+          <div
+            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span
+                  class="text-xs font-extrabold text-brand-primary bg-brand-mint px-3 py-1 rounded-full"
+                  >Area 01</span
+                >
+                <div
+                  class="w-10 h-10 rounded-2xl bg-emerald-50 text-brand-primary flex items-center justify-center group-hover:bg-brand-primary group-hover:text-white transition"
+                >
+                  <i data-lucide="megaphone" class="w-5 h-5"></i>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-brand-dark mb-2">
+                Marketing & Growth
+              </h3>
+              <p class="text-xs text-brand-accent font-semibold mb-3">
+                Mendatangkan Pembeli & Retensi Pelanggan
+              </p>
+              <p class="text-xs text-brand-muted leading-relaxed mb-5">
+                Membantu bisnis menemukan pelanggan baru, meningkatkan interaksi
+                medsos, dan menyiapkan sistem follow-up terukur.
+              </p>
+
+              <div
+                class="space-y-1.5 text-xs text-brand-dark/90 font-medium border-t border-gray-100 pt-4"
+              >
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Social Media & Content Strategy
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Pembuatan Landing Page Penjualan
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Lead Generation & Database Pelanggan
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Optimasi Marketplace & Brand Positioning
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-gray-100">
+              <span class="text-[11px] font-semibold text-brand-muted"
+                >Output: Leads masuk lebih rutin, konversi jualan naik.</span
+              >
+            </div>
+          </div>
+
+          <!-- Area 2 -->
+          <div
+            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span
+                  class="text-xs font-extrabold text-brand-primary bg-brand-mint px-3 py-1 rounded-full"
+                  >Area 02</span
+                >
+                <div
+                  class="w-10 h-10 rounded-2xl bg-emerald-50 text-brand-primary flex items-center justify-center group-hover:bg-brand-primary group-hover:text-white transition"
+                >
+                  <i data-lucide="layout-dashboard" class="w-5 h-5"></i>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-brand-dark mb-2">
+                Digitalisasi Operasional
+              </h3>
+              <p class="text-xs text-brand-accent font-semibold mb-3">
+                Tinggalkan Proses Manual yang Bikin Pusing
+              </p>
+              <p class="text-xs text-brand-muted leading-relaxed mb-5">
+                Mengubah pencatatan buku, spreadsheet terpisah, dan koordinasi
+                chat yang berantakan menjadi sistem kerja digital terpadu.
+              </p>
+
+              <div
+                class="space-y-1.5 text-xs text-brand-dark/90 font-medium border-t border-gray-100 pt-4"
+              >
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Pencatatan Transaksi & Kasir Terpusat
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Pengelolaan Stok Barang (Inventory)
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Absensi Karyawan & Manajemen Tugas Tim
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  SOP Digital & Dokumen Arsip Terpusat
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-gray-100">
+              <span class="text-[11px] font-semibold text-brand-muted"
+                >Output: Alur kerja rapi, bebas drama selisih data.</span
+              >
+            </div>
+          </div>
+
+          <!-- Area 3 -->
+          <div
+            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span
+                  class="text-xs font-extrabold text-brand-primary bg-brand-mint px-3 py-1 rounded-full"
+                  >Area 03</span
+                >
+                <div
+                  class="w-10 h-10 rounded-2xl bg-emerald-50 text-brand-primary flex items-center justify-center group-hover:bg-brand-primary group-hover:text-white transition"
+                >
+                  <i data-lucide="code-2" class="w-5 h-5"></i>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-brand-dark mb-2">
+                Technology & Software
+              </h3>
+              <p class="text-xs text-brand-accent font-semibold mb-3">
+                Website & Aplikasi Sesuai Model Bisnis
+              </p>
+              <p class="text-xs text-brand-muted leading-relaxed mb-5">
+                Membangun aset software yang mendukung penjualan dan
+                kredibilitas bisnis, mulai dari prototipe sederhana hingga skala
+                besar.
+              </p>
+
+              <div
+                class="space-y-1.5 text-xs text-brand-dark/90 font-medium border-t border-gray-100 pt-4"
+              >
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Company Profile Website Elegan & Cepat
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Toko Online (E-Commerce Mandiri)
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Sistem Booking / Reservasi Online
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Web App / Portal Pelanggan Kustom
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-gray-100">
+              <span class="text-[11px] font-semibold text-brand-muted"
+                >Pendekatan: Prototype → MVP → Siap Pakai.</span
+              >
+            </div>
+          </div>
+
+          <!-- Area 4 -->
+          <div
+            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span
+                  class="text-xs font-extrabold text-brand-primary bg-brand-mint px-3 py-1 rounded-full"
+                  >Area 04</span
+                >
+                <div
+                  class="w-10 h-10 rounded-2xl bg-emerald-50 text-brand-primary flex items-center justify-center group-hover:bg-brand-primary group-hover:text-white transition"
+                >
+                  <i data-lucide="bot" class="w-5 h-5"></i>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-brand-dark mb-2">
+                Automation & AI
+              </h3>
+              <p class="text-xs text-brand-accent font-semibold mb-3">
+                Biar Robot Menangani Pekerjaan Berulang
+              </p>
+              <p class="text-xs text-brand-muted leading-relaxed mb-5">
+                Mengurangi waktu mengetik dan mengulang respon dengan
+                memanfaatkan asisten AI cerdas dan alur kerja terotomasi 24/7.
+              </p>
+
+              <div
+                class="space-y-1.5 text-xs text-brand-dark/90 font-medium border-t border-gray-100 pt-4"
+              >
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Respon Cepat WhatsApp Otomatis
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  AI Chatbot Customer Service 24 Jam
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Otomasi Notifikasi & Follow-up Sales
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Rekap Dokumen & Laporan Otomatis
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-gray-100">
+              <span class="text-[11px] font-semibold text-brand-muted"
+                >Output: Tim fokus melayani closing pembeli.</span
+              >
+            </div>
+          </div>
+
+          <!-- Area 5 -->
+          <div
+            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span
+                  class="text-xs font-extrabold text-brand-primary bg-brand-mint px-3 py-1 rounded-full"
+                  >Area 05</span
+                >
+                <div
+                  class="w-10 h-10 rounded-2xl bg-emerald-50 text-brand-primary flex items-center justify-center group-hover:bg-brand-primary group-hover:text-white transition"
+                >
+                  <i data-lucide="bar-chart-3" class="w-5 h-5"></i>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-brand-dark mb-2">
+                Data & Dashboard Bisnis
+              </h3>
+              <p class="text-xs text-brand-accent font-semibold mb-3">
+                Ketahui Kondisi Bisnis dalam Satu Layar
+              </p>
+              <p class="text-xs text-brand-muted leading-relaxed mb-5">
+                Ubah tumpukan angka yang membingungkan menjadi grafik visual
+                interaktif untuk menentukan strategi tanpa tebak-tebakan.
+              </p>
+
+              <div
+                class="space-y-1.5 text-xs text-brand-dark/90 font-medium border-t border-gray-100 pt-4"
+              >
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Dashboard Penjualan & Keuangan
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Analisis Perilaku & Frekuensi Belanja Pelanggan
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Monitoring Perputaran Stok Barang
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Laporan Performa Otomatis ke Smartphone
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-gray-100">
+              <span class="text-[11px] font-semibold text-brand-muted"
+                >Pendekatan: Raw Data → Bersih → Dashboard → Keputusan.</span
+              >
+            </div>
+          </div>
+
+          <!-- Area 6 -->
+          <div
+            class="bg-white rounded-3xl p-7 border border-brand-border hover:border-brand-primary transition flex flex-col justify-between group shadow-sm hover:shadow-xl"
+          >
+            <div>
+              <div class="flex items-center justify-between mb-4">
+                <span
+                  class="text-xs font-extrabold text-brand-primary bg-brand-mint px-3 py-1 rounded-full"
+                  >Area 06</span
+                >
+                <div
+                  class="w-10 h-10 rounded-2xl bg-emerald-50 text-brand-primary flex items-center justify-center group-hover:bg-brand-primary group-hover:text-white transition"
+                >
+                  <i data-lucide="sparkles" class="w-5 h-5"></i>
+                </div>
+              </div>
+              <h3 class="text-xl font-bold text-brand-dark mb-2">
+                New Digital Business
+              </h3>
+              <p class="text-xs text-brand-accent font-semibold mb-3">
+                Buka Sumber Pendapatan Digital Baru
+              </p>
+              <p class="text-xs text-brand-muted leading-relaxed mb-5">
+                Membantu bisnis konvensional Anda bertransformasi dan membuka
+                model bisnis baru berbasis produk dan layanan digital.
+              </p>
+
+              <div
+                class="space-y-1.5 text-xs text-brand-dark/90 font-medium border-t border-gray-100 pt-4"
+              >
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Pembuatan Platform Kursus / Pelatihan Online
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Sistem Langganan / Membership Komunitas
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Kanal Penjualan Digital Baru (B2B Portal)
+                </div>
+                <div class="flex items-center gap-2">
+                  <i
+                    data-lucide="check-circle-2"
+                    class="w-3.5 h-3.5 text-emerald-500"
+                  ></i>
+                  Monetisasi Aset Data & Produk Digital
+                </div>
+              </div>
+            </div>
+            <div class="mt-6 pt-4 border-t border-gray-100">
+              <span class="text-[11px] font-semibold text-brand-muted"
+                >Peluang: Buka keran omset baru di luar toko fisik.</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- Area 7 Banner (Cyber Defense) -->
+        <div
+          class="mt-8 bg-gradient-to-r from-brand-dark to-brand-primary rounded-3xl p-8 sm:p-10 text-white shadow-xl flex flex-col lg:flex-row items-center justify-between gap-8"
+        >
+          <div class="space-y-3 max-w-2xl text-center lg:text-left">
+            <div
+              class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 text-emerald-300 text-xs font-bold"
+            >
+              <i data-lucide="shield-check" class="w-4 h-4"></i>
+              <span>Area 07 • Cyber Defense & Security</span>
+            </div>
+            <h3 class="text-2xl sm:text-3xl font-extrabold">
+              Lindungi Aset Digital & Data Pelanggan Anda
+            </h3>
+            <p class="text-xs sm:text-sm text-emerald-100 leading-relaxed">
+              Keamanan bukan cuma urusan korporasi raksasa. Website usaha, akun
+              admin, dan database transaksi Anda adalah aset berharga yang wajib
+              dilindungi dari risiko kebocoran, hacking, dan kehilangan file.
+            </p>
+            <div
+              class="flex flex-wrap gap-2 pt-2 justify-center lg:justify-start text-xs font-medium text-white/90"
+            >
+              <span class="px-2.5 py-1 bg-white/10 rounded-lg"
+                >Security Assessment</span
+              >
+              <span class="px-2.5 py-1 bg-white/10 rounded-lg"
+                >Web & Cloud Protection</span
+              >
+              <span class="px-2.5 py-1 bg-white/10 rounded-lg"
+                >Backup Otomatis & Recovery</span
+              >
+              <span class="px-2.5 py-1 bg-white/10 rounded-lg"
+                >Hak Akses Login Staf</span
+              >
+            </div>
+          </div>
+          <div class="shrink-0">
+            <a
+              href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20ingin%20cek%20keamanan%20sistem%20dan%20website%20usaha%20saya"
+              target="_blank"
+              class="inline-flex items-center gap-2 px-6 py-3.5 rounded-full bg-brand-accent hover:bg-red-600 text-white font-bold text-sm shadow-lg transition"
+            >
+              <i data-lucide="shield-alert" class="w-4 h-4"></i>
+              <span>Cek Keamanan Web Gratis</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKEMA INVESTASI (PROGRESSIVE INVESTMENT) ================= -->
+    <section id="skema" class="py-24 bg-white border-y border-brand-border">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl mx-auto text-center space-y-3 mb-16">
+          <span
+            class="text-xs uppercase font-extrabold tracking-widest text-brand-primary"
+            >Skema Investasi Bertahap</span
+          >
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-brand-dark">
+            Tanpa Beban Biaya Besar di Depan
+          </h2>
+          <p class="text-brand-muted text-sm sm:text-base">
+            Kami menerapkan <em>Progressive Investment Model</em>. Mulai dari
+            pemetaan gratis, buktikan hasilnya di pilot project skala kecil,
+            lalu kembangkan saat bisnis siap.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Tier 1: DISCOVER -->
+          <div
+            class="bg-brand-surface rounded-3xl p-7 border-2 border-brand-border flex flex-col justify-between hover:border-brand-primary transition"
+          >
+            <div>
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="text-xs font-black uppercase text-brand-primary tracking-wider"
+                  >Level #1</span
+                >
+                <span
+                  class="text-xs font-bold px-2 py-0.5 rounded bg-emerald-100 text-brand-primary"
+                  >Langkah Awal</span
+                >
+              </div>
+              <h3 class="text-2xl font-black text-brand-dark mb-1">DISCOVER</h3>
+              <p class="text-xs text-brand-muted mb-4">
+                Pemetaan masalah & peluang bisnis
+              </p>
+
+              <div class="my-4 py-4 border-y border-gray-200/70">
+                <span class="text-3xl font-extrabold text-brand-primary"
+                  >GRATIS</span
+                >
+                <p class="text-[11px] text-brand-muted mt-0.5">
+                  Sesi diskusi & observasi
+                </p>
+              </div>
+
+              <ul class="space-y-2 text-xs text-brand-dark font-medium my-4">
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Assessment & Observation
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Business Mapping
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Identifikasi Masalah & Peluang
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Ringkasan Rekomendasi Solusi
+                </li>
+              </ul>
+            </div>
+
+            <a
+              href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20tertarik%20mengambil%20sesi%20gratis%20Discover%20Assessment"
+              target="_blank"
+              class="w-full mt-6 py-3 rounded-full text-center text-xs font-bold bg-white border border-brand-primary text-brand-primary hover:bg-brand-primary hover:text-white transition"
+            >
+              Ambil Sesi Gratis
+            </a>
+          </div>
+
+          <!-- Tier 2: PILOT -->
+          <div
+            class="bg-brand-surface rounded-3xl p-7 border-2 border-brand-border flex flex-col justify-between hover:border-brand-primary transition"
+          >
+            <div>
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="text-xs font-black uppercase text-brand-primary tracking-wider"
+                  >Level #2</span
+                >
+                <span
+                  class="text-xs font-bold px-2 py-0.5 rounded bg-blue-100 text-blue-700"
+                  >Validasi</span
+                >
+              </div>
+              <h3 class="text-2xl font-black text-brand-dark mb-1">PILOT</h3>
+              <p class="text-xs text-brand-muted mb-4">
+                Solusi teknis skala kecil
+              </p>
+
+              <div class="my-4 py-4 border-y border-gray-200/70">
+                <span class="text-2xl font-extrabold text-brand-dark"
+                  >Rp 1 – 3 Juta</span
+                >
+                <p class="text-[11px] text-brand-muted mt-0.5">
+                  Uji coba dampak langsung
+                </p>
+              </div>
+
+              <ul class="space-y-2 text-xs text-brand-dark font-medium my-4">
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Solusi Teknis & Otomasi Sederhana
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Mengurangi Repetisi Tugas Harian
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Penjadwalan & Efisiensi Tim
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Pembuktian Dampak Pertama
+                </li>
+              </ul>
+            </div>
+
+            <a
+              href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20ingin%20diskusi%20paket%20Pilot%20Project"
+              target="_blank"
+              class="w-full mt-6 py-3 rounded-full text-center text-xs font-bold bg-white border border-brand-border text-brand-dark hover:border-brand-primary hover:text-brand-primary transition"
+            >
+              Pilih Tahap Pilot
+            </a>
+          </div>
+
+          <!-- Tier 3: IMPLEMENT (Best Value / Recommended) -->
+          <div
+            class="bg-brand-mint rounded-3xl p-7 border-2 border-brand-primary flex flex-col justify-between relative shadow-lg transform lg:-translate-y-2"
+          >
+            <div
+              class="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-brand-accent text-white text-[11px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider"
+            >
+              Paling Diminati
+            </div>
+            <div>
+              <div class="flex justify-between items-center mb-4 pt-1">
+                <span
+                  class="text-xs font-black uppercase text-brand-primary tracking-wider"
+                  >Level #3</span
+                >
+                <span
+                  class="text-xs font-bold px-2 py-0.5 rounded bg-brand-primary text-white"
+                  >Fondasi Kokoh</span
+                >
+              </div>
+              <h3 class="text-2xl font-black text-brand-dark mb-1">
+                IMPLEMENT
+              </h3>
+              <p class="text-xs text-brand-muted mb-4">
+                Sistem kerja terintegrasi & efisien
+              </p>
+
+              <div class="my-4 py-4 border-y border-emerald-200">
+                <span class="text-2xl font-extrabold text-brand-primary"
+                  >Rp 3 – 10 Juta</span
+                >
+                <p class="text-[11px] text-brand-muted mt-0.5">
+                  Solusi modular siap pakai
+                </p>
+              </div>
+
+              <ul class="space-y-2 text-xs text-brand-dark font-medium my-4">
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-accent shrink-0"
+                  ></i>
+                  Solusi Modular Terintegrasi
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-accent shrink-0"
+                  ></i>
+                  Otomasi Alur Kerja Lengkap
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-accent shrink-0"
+                  ></i>
+                  Pelatihan Karyawan & Support Sistem
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-accent shrink-0"
+                  ></i>
+                  Pemeliharaan & Maintenance Awal
+                </li>
+              </ul>
+            </div>
+
+            <a
+              href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20ingin%20konsultasi%20skema%20Implement%20untuk%20operasional"
+              target="_blank"
+              class="w-full mt-6 py-3 rounded-full text-center text-xs font-bold bg-brand-primary text-white shadow-md hover:bg-brand-secondary transition"
+            >
+              Pilih Skema Implement
+            </a>
+          </div>
+
+          <!-- Tier 4: GROW -->
+          <div
+            class="bg-brand-surface rounded-3xl p-7 border-2 border-brand-border flex flex-col justify-between hover:border-brand-primary transition"
+          >
+            <div>
+              <div class="flex justify-between items-center mb-4">
+                <span
+                  class="text-xs font-black uppercase text-brand-primary tracking-wider"
+                  >Level #4</span
+                >
+                <span
+                  class="text-xs font-bold px-2 py-0.5 rounded bg-purple-100 text-purple-700"
+                  >Skala Besar</span
+                >
+              </div>
+              <h3 class="text-2xl font-black text-brand-dark mb-1">GROW</h3>
+              <p class="text-xs text-brand-muted mb-4">
+                Platform, aset digital & ekspansi
+              </p>
+
+              <div class="my-4 py-4 border-y border-gray-200/70">
+                <span class="text-2xl font-extrabold text-brand-dark"
+                  >Rp 10+ Juta</span
+                >
+                <p class="text-[11px] text-brand-muted mt-0.5">
+                  Sesuai kompleksitas & roadmap
+                </p>
+              </div>
+
+              <ul class="space-y-2 text-xs text-brand-dark font-medium my-4">
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Pengembangan Platform Kustom / App
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Business Growth Dashboard Lengkap
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  End-to-End Automation & AI Integration
+                </li>
+                <li class="flex items-center gap-2">
+                  <i
+                    data-lucide="check"
+                    class="w-4 h-4 text-brand-primary shrink-0"
+                  ></i>
+                  Dedicated Partnership & Maintenance
+                </li>
+              </ul>
+            </div>
+
+            <a
+              href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20ingin%20diskusi%20kemitraan%20skala%20Grow%20(Pengembangan%20Platform)"
+              target="_blank"
+              class="w-full mt-6 py-3 rounded-full text-center text-xs font-bold bg-white border border-brand-border text-brand-dark hover:border-brand-primary hover:text-brand-primary transition"
+            >
+              Diskusi Kemitraan Grow
+            </a>
+          </div>
+        </div>
+
+        <div class="mt-12 text-center">
+          <p class="text-xs text-brand-muted max-w-xl mx-auto">
+            *Estimasi biaya disesuaikan dengan volume operasional, jumlah modul,
+            dan spesifikasi yang disepakati bersama pada sesi Discovery.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CARA MEMULAI (HOW WE START) ================= -->
+    <section class="py-20 bg-brand-surface">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="bg-brand-primary rounded-3xl p-8 sm:p-14 text-white relative overflow-hidden"
+        >
+          <!-- Circular Accent Deck Graphic -->
+          <div
+            class="absolute -top-20 -right-20 w-80 h-80 rounded-full border-8 border-white/10 pointer-events-none"
+          ></div>
+
+          <div class="grid lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-7 space-y-4">
+              <span
+                class="text-xs uppercase font-extrabold tracking-widest text-emerald-300"
+                >How We Start</span
+              >
+              <h2 class="text-3xl sm:text-4xl font-extrabold leading-tight">
+                Mulai dari Secangkir Kopi & Obrolan Santai.
+              </h2>
+              <p
+                class="text-sm sm:text-base text-emerald-100 max-w-xl leading-relaxed"
+              >
+                Kami tidak langsung menjual produk sebelum memahami kondisi riil
+                di lapangan. Ceritakan bagaimana bisnis Anda berjalan hari ini,
+                apa yang paling memakan waktu, dan ke mana Anda ingin bertumbuh.
+              </p>
+
+              <div class="grid sm:grid-cols-3 gap-4 pt-4 text-xs">
+                <div
+                  class="bg-black/15 p-3.5 rounded-xl border border-white/10"
+                >
+                  <span class="font-bold text-white block mb-0.5"
+                    >1. Perkenalan</span
+                  >
+                  Saling mengenal visi & target bisnis Anda.
+                </div>
+                <div
+                  class="bg-black/15 p-3.5 rounded-xl border border-white/10"
+                >
+                  <span class="font-bold text-white block mb-0.5"
+                    >2. Pemetaan</span
+                  >
+                  Temukan sumbatan & peluang prioritas.
+                </div>
+                <div
+                  class="bg-black/15 p-3.5 rounded-xl border border-white/10"
+                >
+                  <span class="font-bold text-white block mb-0.5"
+                    >3. Rencana Nyata</span
+                  >
+                  Buat roadmap dan skema yang masuk akal.
+                </div>
+              </div>
+            </div>
+
+            <div class="lg:col-span-5 text-center lg:text-right">
+              <div
+                class="bg-white rounded-2xl p-6 text-brand-dark text-left shadow-2xl max-w-sm ml-auto"
+              >
+                <div class="flex items-center gap-3 mb-4">
+                  <div
+                    class="w-10 h-10 rounded-full bg-brand-lightAccent text-brand-accent flex items-center justify-center font-bold"
+                  >
+                    <i data-lucide="coffee" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-sm">Jadwalkan Assessment</h3>
+                    <p class="text-[11px] text-brand-muted">
+                      Tanpa ikatan komitmen berbayar
+                    </p>
+                  </div>
+                </div>
+                <p class="text-xs text-brand-muted mb-5 leading-relaxed">
+                  Pilih waktu yang cocok untuk berdiskusi langsung di
+                  Tasikmalaya atau via online call.
+                </p>
+                <a
+                  href="https://wa.me/6289655176270?text=Halo%20Semangkamedia%2C%20saya%20ingin%20jadwalkan%20diskusi%20awal%20%2F%20assessment%20untuk%20usaha%20saya"
+                  target="_blank"
+                  class="w-full inline-flex items-center justify-center gap-2 py-3 rounded-full bg-brand-primary text-white text-xs font-bold hover:bg-brand-secondary transition"
+                >
+                  <i data-lucide="message-circle" class="w-4 h-4"></i>
+                  <span>Hubungi via WhatsApp</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT & FOOTER ================= -->
+    <footer
+      id="kontak"
+      class="bg-gradient-to-r from-brand-primary to-brand-secondary text-white pt-16 pb-12"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/10"
+        >
+          <!-- Brand Info -->
+          <div class="lg:col-span-5 space-y-4">
+            <div class="flex items-center gap-3">
+              <img
+                src="assets/logo.png"
+                class="w-14"
+                alt="Semangkamedia Logo"
+              />
+              <div>
+                <span class="text-lg font-black tracking-tight uppercase"
+                  >Semangka<span class="text-brand-accent">media</span></span
+                >
+                <p class="text-[11px] text-brand-lightAccent tracking-wider">
+                  Digital Transformation for Business
+                </p>
+              </div>
+            </div>
+
+            <p class="text-xs text-emerald-100/70 max-w-sm leading-relaxed">
+              Membantu bisnis dan UMKM melangkah ke dunia digital dengan tepat
+              sasaran, efisien, dan berdampak nyata bagi pertumbuhan usaha.
+            </p>
+
+            <p class="text-xs italic text-brand-lightAccent font-medium">
+              Understand the Business • Find the Opportunity • Build the
+              Solution • Create the Impact
+            </p>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="lg:col-span-3 space-y-3">
+            <h3 class="text-sm font-bold text-white uppercase tracking-wider">
+              Navigasi
+            </h3>
+            <ul class="space-y-2 text-xs text-emerald-100/70">
+              <li>
+                <a href="#tentang" class="hover:text-white transition"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li>
+                <a href="#cara-kerja" class="hover:text-white transition"
+                  >Alur Kerja 6 Tahap</a
+                >
+              </li>
+              <li>
+                <a href="#layanan" class="hover:text-white transition"
+                  >7 Area Solusi</a
+                >
+              </li>
+              <li>
+                <a href="#skema" class="hover:text-white transition"
+                  >Skema Investasi Bertahap</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Box -->
+          <div class="lg:col-span-4 space-y-3">
+            <h3 class="text-sm font-bold text-white uppercase tracking-wider">
+              Kontak & Domisili
+            </h3>
+
+            <div class="space-y-2.5 text-xs text-emerald-100/80">
+              <div class="flex items-start gap-2.5">
+                <i
+                  data-lucide="map-pin"
+                  class="w-4 h-4 text-brand-lightAccent shrink-0 mt-0.5"
+                ></i>
+                <span>Tasikmalaya, Jawa Barat, Indonesia</span>
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i
+                  data-lucide="globe"
+                  class="w-4 h-4 text-brand-lightAccent shrink-0"
+                ></i>
+                <a
+                  href="https://www.semangkamedia.com"
+                  target="_blank"
+                  class="hover:underline text-brand-lightAccent font-semibold"
+                  >www.semangkamedia.com</a
+                >
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i
+                  data-lucide="message-circle"
+                  class="w-4 h-4 text-brand-lightAccent shrink-0"
+                ></i>
+                <a
+                  href="https://wa.me/6289655176270"
+                  target="_blank"
+                  class="hover:underline text-white font-medium"
+                  >+62 896-5517-6270</a
+                >
+              </div>
+              <div class="flex items-center gap-2.5">
+                <i
+                  data-lucide="mail"
+                  class="w-4 h-4 text-brand-lightAccent shrink-0"
+                ></i>
+                <a href="mailto:halo@semangkamedia.com" class="hover:underline"
+                  >halo@semangkamedia.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div
+          class="pt-8 flex flex-col sm:flex-row items-center justify-between text-[11px] text-emerald-100/50 gap-4"
+        >
+          <p>© 2026 Semangkamedia. All rights reserved.</p>
+          <p>Digital Transformation • Tasikmalaya</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ================= JAVASCRIPT LOGIC ================= -->
+    <script src="assets/script.js"></script>
+  </body>
+</html>

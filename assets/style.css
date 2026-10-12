@@ -1,0 +1,15 @@
+/* Halus custom styles & motif melengkung pitch deck */
+.hero-ring {
+  border: 24px solid rgba(30, 90, 68, 0.08);
+  border-right-color: rgba(230, 83, 66, 0.15);
+  border-bottom-color: rgba(30, 90, 68, 0.18);
+}
+
+.badge-pill {
+  box-shadow: 0 4px 15px -2px rgba(30, 90, 68, 0.08);
+}
+
+.glass-nav {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+}
