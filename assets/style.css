@@ -34,3 +34,8 @@
     animation: none !important;
   }
 }
+
+.rounded-circle {
+  border-radius: 50% !important;
+}
+
